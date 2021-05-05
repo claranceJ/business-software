@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("img/index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160vh;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #ed969e;
+    border: none;
+    /*box-sizing: border-box;*/
+    /*border: 1px solid grey;*/
+    /*border-radius: 10px;*/
+
+}
+.content>h1 {
+    text-align: center;
+    width: 320px;
+    margin: 8px;
+    padding: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*border: 1px solid grey;*/
+
+}
